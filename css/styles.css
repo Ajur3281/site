@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sofia', cursive;
+}
+.top-container {
+  background-color: #184d47;
+
+
+}
+h1 {
+  font-size: 5.625rem;   /* 5.525 = 90px/ также добавляя r-em это делает строку не воспримчивой к оставльным переменым. То есто даже изменяя переменую в body/size~ это не повлияет на размер в h1/h2= 000rem; */
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script',cursive;
+  line-height: 2;
+  color: #f58634
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #f58634
+
+}
+
+h3 {
+  font-size: 30px;
+font-family: 'Xanh Mono', monospace;
+color: #11999E
+}
+
+.number {
+  font-size: 20px;
+}
+
+.line1 {
+  border-color: #dddddd;
+  border-top-style: dotted;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  height: 1px;
+  width: 8%;
+  border-width: thick
+
+
+}
+
+.line2 {
+  border-color: #dddddd;
+  border-top-style: dotted;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  height: 1px;
+  width: 8%;
+  border-width: thick
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  /* or we can use this properties: position: relative;
+   left: 200px;*/
+}
+
+
+.skill {
+  width: 25%;
+  height: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.gif {
+  position: relative;
+  width: 35%;
+  height: 35%;
+  float: left;
+  padding-right: 30px;
+
+}
+
+a{
+  margin: 10px;
+  color: #11999E
+
+
+}
+a:hover {
+  color: #f5f4f4
+}
+.copyright {
+  font-family: 'Lato', sans-serif;
+  color: #dddddd
+}
+.btn {
+  margin: 50px;
+  background: #ef4f4f;
+  background-image: -webkit-linear-gradient(top, #ef4f4f, #811616);
+  background-image: -moz-linear-gradient(top, #ef4f4f, #811616);
+  background-image: -ms-linear-gradient(top, #ef4f4f, #811616);
+  background-image: -o-linear-gradient(top, #ef4f4f, #811616);
+background-image: linear-gradient(to bottom, #ef4f4f, #811616);
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+height: 14px;
+line-height: 14px;
+color: #FFFFFF;
+font-family: Open Sans;
+width: 150px;
+font-size: 15px;
+font-weight: 800;
+padding: 12px;
+box-shadow: 1px 1px 6px 0px #000000;
+-webkit-box-shadow: 1px 1px 6px 0px #000000;
+-moz-box-shadow: 1px 1px 6px 0px #000000;
+text-shadow: 1px 1px 6px #000000;
+border: solid #762C2C 1px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+}
+
+.redbutton:hover {
+  border: solid #ED3333 1px;
+  background: #811616;
+  background-image: -webkit-linear-gradient(top, #811616, #F63D3D);
+  background-image: -moz-linear-gradient(top, #811616, #F63D3D);
+  background-image: -ms-linear-gradient(top, #811616, #F63D3D);
+  background-image: -o-linear-gradient(top, #811616, #F63D3D);
+  background-image: linear-gradient(to bottom, #811616, #F63D3D);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+
+
+.top-container {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 150px;
+
+  }
+
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 70px;
+
+  }
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+
+
+
+  }
+
+
+
+
+
+
+
+
+.middle-container {
+  margin: 100px 0;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  padding: 10px 0 10px;
+  background-color: #f58634;
+
+
+}
